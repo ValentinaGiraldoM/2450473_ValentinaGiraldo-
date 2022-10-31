@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="Col">
+<head>
+    <meta charset="UTF-8"> <!--conjunto de carateres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
+    crossorigin="anonymous">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>FORMULARIO</title>
+    
+</head>
+<body class="Form">
+
+    <h1 style="text-align: center; font-family: fantasy">FORMULARIO</h1>
+    
+    <form action="" method="get">
+
+        <label for="TipoDocumentos">Tipo de Documento:</label><br>
+        <input list="TipoDocumentos" name="TipoDocu">
+    <datalist id="TipoDocumentos">
+        <option value="Cedula de Ciudadania">
+        <option value="Documento de Identidad">
+        <option value="Cedula Extrangera">
+    </datalist> <br><br>
+
+
+        <label for="Document">Documento:</label><br>
+        <input type= "number" id="Document" name="Documento" 
+        required placeholder="ingrese Numero de documento" 
+        autofocus pattern="[A-Za-z0-9]{5,10}"><br><br>
+
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="fname" name="fname"
+        required placeholder="ingrese Nombre" 
+        autofocus pattern="[A-Za-z0-9]{5,10}"><br><br>
+
+        <label for="lname">Apellidos:</label><br>
+        <input type="text" id="lname" name="Apellidos"
+        required placeholder="ingrese Apellidos" 
+        autofocus pattern="[A-Za-z0-9]{5,10}"><br><br>
+
+        <label for="Letraa" >Letra:</label><br>
+        <input type="text" id="Letraa" name="Letra"
+        required placeholder="ingrese la letra" 
+        autofocus pattern="[A-Za-z0-9]{5,10}"><br><br>
+
+        <label for="Termino">Termino:</label><br>
+        <input type="text" id="Termino" name="Termino"
+        required placeholder="ingrese el nuevo contenido" 
+        autofocus pattern="[A-Za-z0-9]{5,10}"><br><br>
+
+        <input class="btn3" type="submit" value="Almacenar">
+        <a class="btn4" href="index.html" >Volver</a>
+        
+      </form>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+crossorigin="anonymous"></script>
+</body>
+</html>

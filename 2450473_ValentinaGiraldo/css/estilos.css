@@ -1,0 +1,142 @@
+*
+{
+    margin: 0px;
+    padding: 5px;
+    box-sizing:border-box;
+}
+
+body 
+{
+    background-color:#f8f1fff8;
+
+}
+.Titulo
+{
+    color: red;
+    font-size:80px; 
+    text-align: center;
+    margin-bottom: 50px;
+}
+#MenuPrinci,#MenuSecund
+{
+    border-radius: 10%;
+    border-color: rgb(226, 43, 43);
+    border-style: double;
+    border-width: 5px;
+}
+
+.Menu1
+{
+    font-size:50px; 
+    text-align: center;
+}
+
+.Menu2
+{
+    font-size:50px; 
+    text-align: center;
+    margin:"_blank";  
+}
+.btn
+{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #ff0000;
+    padding: 20px;
+    color: rgb(240, 254, 255);
+    text-decoration: none;
+    
+}
+.btn2
+{
+    color: blueviolet;
+    background: transparent;
+    border: 2px solid #7e00cc;
+    border-radius: 150px;
+    text-decoration: none;
+    text-align:right;
+}
+.btn2:hover
+{
+    background-color: #9f62c9;
+    color: white;
+}
+p
+{
+    font-family:Georgia;
+    font-size:22px;
+}
+
+h1
+{
+    font-size:80px;
+    text-align: center;
+}
+
+.tablaMenus
+{
+    width:100%;
+    font-family:Georgia;
+    font-size:22px;
+    text-align: center;
+    
+}
+table, th, td {
+    border:none;
+    border-radius: 30px;
+    font-family:Georgia;
+    font-size:30px;
+  }
+  th, td {
+    background-color: hsla(244, 56%, 79%, 0.626);
+  }
+.TituloTabla
+{
+    text-align: center;
+}
+.A,.B,.C,.D,.E,.F,.G,.H,.I,.J,.K,.L,.M,.N,.O,.P,.Q,.R,.S,.T,.U,.V,.W,.X,.Y,.Z
+{
+    width: 90px;
+}
+
+
+        .Form
+        {
+            background-color: peachpuff;
+        }
+        form
+        {
+            text-align: center;
+            color: brown;
+            font-family: verdana;
+            font-size:x-large; 
+        }
+        input
+        {
+            width: 500px; text-align: center; 
+        }
+        .btn3
+        {
+            color: rgb(87, 24, 24);
+            background: transparent;
+            border: 2px solid #e85b45;
+            border-radius: 150px;
+            text-align: center;
+            display: inline-block;
+        }
+        .btn3:hover
+        {
+            background-color: #f0b46e;
+            color: white;
+        }
+        .btn4
+        {
+            color: rgb(87, 24, 24);
+            background:#f0b46e;
+            border: 2px solid #a15805;
+            border-radius: 10px;
+            text-align: center;
+            display: inline-block;
+        }
+
+
